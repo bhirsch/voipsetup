@@ -1,0 +1,46 @@
+<?php
+/**
+ * @file voipsetup.module
+ */ 
+
+/**
+ * Implementation of hook_enable().
+ */
+function voipsetup_enable() {
+  $module_list = array(
+    // CCK
+    'content',
+    'fieldgroup',
+    'filefield',
+    'imagefield', 
+    'nodereference',
+    'number',
+    'optionwidgets',
+    'text',
+    // Date/time
+    'date',
+    'date_api',
+    'date_timezone',
+    // Development
+    'devel',
+    // Features
+    'features', 
+    // Other
+    'advanced_help',
+    // SWF Tools 
+    'swftools',
+    // Services
+    'services',
+    // Views
+    'views',
+    'views_ui',
+    // Voip Drupal
+    'callblast',
+    'calllist',
+    'voip',
+    'voipcall',
+    'voipscript',
+    'voiptwilio',
+  );
+  module_enable($module_list);
+}
