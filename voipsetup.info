@@ -24,6 +24,6 @@ dependencies[] =  callblast
 dependencies[] =  calllist
 dependencies[] =  voip
 dependencies[] =  voipcall
-dependencies[] =  voipscript	
+dependencies[] =  voipscriptui
 dependencies[] =  voiptwilio
 core = 6.x
