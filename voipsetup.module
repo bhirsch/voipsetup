@@ -33,7 +33,7 @@ function voipsetup_enable() {
     'services',
     // Views
     'views',
-    'views_bonus',
+    'views_bonus_export',
     'views_ui',
     // Voip Drupal
     'callblast',
